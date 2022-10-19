@@ -1,0 +1,19 @@
+main{
+    // padding-left: 6rem;
+    // padding-right: 6rem;
+}
+@media (max-width:$breakpoint-mobile){
+    main{
+       padding-left:0;
+       padding-right:0; 
+       margin-bottom:0;
+    }
+}
+@media (max-width:$breakpoint-tablet){
+    main{
+       padding-left:0;
+       padding-right:0; 
+       margin-bottom:0;
+    }
+}
+    

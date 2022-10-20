@@ -41,4 +41,16 @@
 }
 .heart:hover::after {
   opacity: 1;
+}
+
+.rest__heart {
+  width: 2rem;
+  height: 2rem;
+  left: 100%;
+  bottom: 10%;
+  position: absolute;
+}
+
+.rest-page__heart {
+  width: 2rem;
 }/*# sourceMappingURL=heart.css.map */

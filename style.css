@@ -333,109 +333,34 @@ footer li {
   margin: 0rem;
 }
 /*# sourceMappingURL=pages.css.map */
-nav a {
-  margin-top: 1rem;
-  margin-bottom: 0.6rem;
+nav a{
+  margin-top:1rem;
+  margin-bottom:0.6rem;
 }
-nav a::before {
+nav a::before{
   display: inline-block;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free"; 
   position: absolute;
   left: 0;
   transform: translateY(-50%);
   width: 1.25em;
   text-align: center;
-  width: 4rem;
-  height: 2rem;
-  font-size: 1.5rem;
-  font-family: "Font Awesome 5 Free";
+  width:4rem;
+  height:2rem;
+  font-size:1.5rem;
+  font-family: "Font Awesome 5 Free"; 
   font-weight: 900;
-  top: 2rem;
-  content: "\f060";
-  cursor: pointer;
+  top:2rem;
+  content:"\f060";
+  cursor:pointer;
 }
-.menu__item:nth-child(1) {
-  animation-delay: 0.5s;
-  transition: all 300ms ease-in-out;
+.restaurant-pic img {
+  display: block;
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
 }
-.menu__item:nth-child(2) {
-  animation-delay: 1s;
-  transition: all 300ms ease-in-out;
-}
-.menu__item:nth-child(3) {
-  animation-delay: 1.5s;
-  transition: all 300ms ease-in-out;
-}
-.menu__item:hover .item--check {
-  margin-right: 0;
-}
-.menu__item:hover .item--check i {
-  transform: rotate(1turn);
-}
-
-@keyframes fade-in {
-  0% {
-    transform: translateY(50%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-.item__content {
-  padding: 1rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  width: 60%;
-}
-.item__content h3, .item__content p {
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.item__price {
-  font-size: 0.9rem;
-  margin-left: auto;
-  font-weight: bold;
-  display: flex;
-  align-items: flex-end;
-  padding: 1rem;
-  min-width: 10%;
-}
-
-.item--check {
-  width: 4rem;
-  color: #99E2D0;
-  justify-content: center;
-  background-color: #99E2D0;
-  border-radius: 0rem 1rem 1rem 0rem;
-  margin-right: -4rem;
-  overflow: hidden;
-  transition: all 500ms;
-  display: flex;
-  align-items: center;
-}
-.item--check i {
-  border-radius: 50%;
-  color: #99E2D0;
-  background-color: white;
-  width: 1.1rem;
-  display: flex;
-  justify-content: center;
-  transition: all 500ms ease-in-out;
-}
-
-.rests-results {
-  background-color: #f2f2f2;
-  padding-bottom: 1rem;
-  border-radius: 2rem;
-  margin: 2rem 6rem 2rem 6rem;
-}
-  

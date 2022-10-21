@@ -332,5 +332,27 @@ footer li {
 .footer-bloc p {
   margin: 0rem;
 }
-/*# sourceMappingURL=style.css.map */ 
-
+/*# sourceMappingURL=pages.css.map */
+nav a {
+  margin-top: 1rem;
+  margin-bottom: 0.6rem;
+}
+nav a::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  left: 0;
+  transform: translateY(-50%);
+  width: 1.25em;
+  text-align: center;
+  width: 4rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  top: 2rem;
+  content: "\f060";
+  cursor: pointer;
+}

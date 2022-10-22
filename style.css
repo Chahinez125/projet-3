@@ -295,6 +295,49 @@ header {
   width: 2rem;
 }
 
+.homepage__loader {
+  height: 100vh;
+  position: fixed;
+  inset: 0;
+  background-color: #EFEFEF;
+  border: 6px solid #FF79DA;
+  z-index: 2;
+  opacity: 1;
+  animation: pop-up_out 1s ease-in 3s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.homepage__loader .homepage__loader--spin {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border-top: 16px solid #9356DC;
+  border-right: 16px solid #FF79DA;
+  border-bottom: 16px solid #99E2D0;
+  border-left: 16px solid #383838;
+  animation: spin 3s infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pop-up_out {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
 
 /*FOOTER*/
 
@@ -531,7 +574,6 @@ nav a::before {
     }
   }
 
-  /*tablette*/
   @media (max-width: 700px), (max-width: 900px) {
     .booking {
       padding-left: 2rem;

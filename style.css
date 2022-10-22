@@ -21,7 +21,7 @@ body {
 .xplor__button {
   border: none;
   border-radius: 2rem;
-  -webkit-box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.2);
+  box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.2);
   height: 3rem;
   width: 14rem;
   margin-left: auto;
@@ -44,7 +44,7 @@ body {
   background: rgb(255, 121, 217);
   background-image: linear-gradient(to right bottom, rgb(255, 121, 217) 0%, rgb(147, 86, 220) 100%);
   cursor: pointer;
-  -webkit-box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.4);
+  box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.4);
 }
 
 .heart::before {
@@ -175,7 +175,7 @@ body {
 .menu__item {
   background-color: white;
   border-radius: 1rem;
-  -webkit-box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.2);
+  box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.2);
   display: flex;
   cursor: pointer;
   margin: 0.4rem;
@@ -302,7 +302,7 @@ body {
 .rest-card {
   background-color: white;
   border-radius: 1.3rem;
-  -webkit-box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.2);
+  box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.2);
   min-width: 40%;
   position: relative;
   transition: all 200ms ease-in-out;
@@ -386,7 +386,7 @@ body {
   padding: 1rem;
   flex-grow: 1;
   gap: 0.6rem;
-  -webkit-box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.2);
+  box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.2);
 }
 @media (max-width: 700px) {
   .booking__steps li {
@@ -481,7 +481,7 @@ header {
 }
 
 .homepage-header {
-  -webkit-box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.2);
+ box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.2);
 }
 
 footer {

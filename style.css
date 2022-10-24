@@ -17,6 +17,7 @@ body {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
 }
+
 /* BUTTONS */
 .xplor__button {
   border: none;
@@ -46,7 +47,7 @@ body {
   cursor: pointer;
   box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.4);
 }
-
+  /*heart*/
 .heart::before {
   display: block;
   font-style: normal;
@@ -129,6 +130,7 @@ body {
     transform: scaleY(1);
   }
 }
+/*cadre*/
 .homepage__loader {
   height: 100vh;
   position: fixed;
@@ -155,7 +157,7 @@ body {
   border-left: 16px solid #383838;
   animation: spin 3s infinite;
 }
-
+ /* annimation CADRE */
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -171,7 +173,7 @@ body {
   100% {
     transform: scale(0);
   }
-}
+} 
 .menu__item {
   background-color: white;
   border-radius: 1rem;
@@ -481,7 +483,7 @@ header {
 }
 
 .homepage-header {
- box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.2);
+  box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.2);
 }
 
 footer {

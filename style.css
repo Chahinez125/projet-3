@@ -20,32 +20,25 @@
   
   /* BUTTONS */
   .xplor__button {
-    border: none;
-    border-radius: 2rem;
-    box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.2);
-    height: 3rem;
-    width: 14rem;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    width: max-content;
+    margin: auto;
+    background-image: linear-gradient(#FF79DA, #9356DC);
     color: white;
-    font-size: 1.2rem;
-    font-weight: 450;
-    padding: 0.7rem 1.4rem;
-    margin-top: 2rem;
-    text-align: center;
-    background: rgb(255, 121, 217);
-    background-image: linear-gradient(to right bottom, rgb(255, 121, 217) 0%, rgb(147, 86, 220) 100%);
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px #c4c3c0;
+    padding: 15px 20px;
+    font-weight: bold;
+    transform: scale(1);
+    transition: transform 500ms;
+    opacity: 1;
   }
   .xplor__button span {
     font-size: 1rem;
   }
   .xplor__button:hover {
-    
-    transition: all 200ms ease-in;
-    background: rgb(255, 121, 217);
-    background-image: linear-gradient(to right bottom, rgb(255, 121, 217) 0%, rgb(147, 86, 220) 100%);
-    cursor: pointer;
-    box-shadow: -0.125rem 0.375rem 0.625rem hsla(0deg, 0%, 0%, 0.4);
+    opacity: 0.8;
+    box-shadow: 2px 2px 20px black;
   }
   
   .heart::before {
@@ -283,7 +276,7 @@
     }
   }
   .rests-results h2 {
-    padding-left: 2rem;
+    padding-left: 1rem;
     padding-top: 2rem;
   }
   .rests-results h3 {
@@ -361,7 +354,8 @@
   }
   
   .booking h2 {
-    padding-left: 2rem;
+    padding-left: 0rem;
+    font-size: 1.5em;
   }
   
   .booking__steps ol {

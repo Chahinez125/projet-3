@@ -40,7 +40,7 @@
     font-size: 1rem;
   }
   .xplor__button:hover {
-    transform: scale(1.1);
+    
     transition: all 200ms ease-in;
     background: rgb(255, 121, 217);
     background-image: linear-gradient(to right bottom, rgb(255, 121, 217) 0%, rgb(147, 86, 220) 100%);
@@ -312,9 +312,7 @@
       width: 100%;
     }
   }
-  .rest-card:hover {
-    transform: scale(1.1);
-  }
+ 
   .rest-card .rest-card--new::before {
     content: "Nouveau";
     position: absolute;
@@ -408,7 +406,7 @@
     justify-content: center;
   }
   .booking__steps li:hover {
-    transform: scale(1.1);
+    
     cursor: pointer;
     background: #F4EEFB;
   }

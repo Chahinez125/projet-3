@@ -108,7 +108,7 @@
   
   .booking h2 {
     padding-left: 0rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   
   .booking__steps ol {
@@ -319,6 +319,7 @@
   .rests-results h2 {
     padding-left: 1rem;
     padding-top: 2rem;
+    font-size: 1.3rem;
   }
   .rests-results h3 {
     margin: 0;

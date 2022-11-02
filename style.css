@@ -230,8 +230,7 @@
   .rest-page__heart {
     width: 2rem;
   }
-  
-  @keyframes heart-filling{
+  @keyframes heart-filling {
     0% {
       opacity: 0;
       transform: scaleY(0);
@@ -255,7 +254,7 @@
     100% {
       transform: scaleY(1);
     }
-   }
+  }
   .homepage__loader {
     height: 100vh;
     position: fixed;
